@@ -1,5 +1,5 @@
 #Author: rjdiazzh@gmail.com
-Feature: prueba Eduardo Alday Bran
+Feature: prueba AnalistaQA
 
   Scenario: escoger un producto y este es mostrado en el carrito correctamente
     Given Se abre el navegador con la automatizacion
