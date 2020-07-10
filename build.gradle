@@ -32,7 +32,10 @@ dependencies  {
 gradle.startParameter.continueOnFailure = true 
 
 test {
-   dependsOn cleanTest
+    dependsOn cleanTest
+    testLogging {
+       showStandardStreams = true  
+    }
 }
 
 
